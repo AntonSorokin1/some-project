@@ -11,9 +11,33 @@ VM-41
 2 3 4 5 2 2
 }
 {
-Ivan
-Ivanov
-2000-01-01
+Roma
+Romanov
+1965-05-23
+}
+{
+Anton
+Antonov
+1989-10-09
+}
+{
+Masha
+Petrova
+1998-04-04
 IS-41
-4 4 4 4 4 4 4
+5 5 5 5 5 5
+}
+{
+Sveta
+Ivanova
+1999-03-03
+VM-41
+5 5 5 4 4
+}
+{
+Katya
+Pupkina
+1999-02-02
+IS-41
+5 5 5 5 5 5 4
 }

@@ -1,5 +1,32 @@
+Humans list:
 Human{name='Petya', surName='Petrov', birthday=1970-05-12}
 Student{Human{name='Vasya', surName='Vasilkov', birthday=1998-12-07}, group='VM-41', marks=[2, 3, 4, 5, 2, 2]}
-Student{Human{name='Ivan', surName='Ivanov', birthday=2000-01-01}, group='IS-41', marks=[4, 4, 4, 4, 4, 4, 4]}
-Petya older then Vasya
-Vasya stupider then Ivan
+Human{name='Roma', surName='Romanov', birthday=1965-05-23}
+Human{name='Anton', surName='Antonov', birthday=1989-10-09}
+Student{Human{name='Masha', surName='Petrova', birthday=1998-04-04}, group='IS-41', marks=[5, 5, 5, 5, 5, 5]}
+Student{Human{name='Sveta', surName='Ivanova', birthday=1999-03-03}, group='VM-41', marks=[5, 5, 5, 4, 4]}
+Student{Human{name='Katya', surName='Pupkina', birthday=1999-02-02}, group='IS-41', marks=[5, 5, 5, 5, 5, 5, 4]}
+
+Students list:
+Student{Human{name='Vasya', surName='Vasilkov', birthday=1998-12-07}, group='VM-41', marks=[2, 3, 4, 5, 2, 2]}
+Student{Human{name='Masha', surName='Petrova', birthday=1998-04-04}, group='IS-41', marks=[5, 5, 5, 5, 5, 5]}
+Student{Human{name='Sveta', surName='Ivanova', birthday=1999-03-03}, group='VM-41', marks=[5, 5, 5, 4, 4]}
+Student{Human{name='Katya', surName='Pupkina', birthday=1999-02-02}, group='IS-41', marks=[5, 5, 5, 5, 5, 5, 4]}
+
+Humans list sorted by age:
+Student{Human{name='Vasya', surName='Vasilkov', birthday=1998-12-07}, group='VM-41', marks=[2, 3, 4, 5, 2, 2]}
+Student{Human{name='Sveta', surName='Ivanova', birthday=1999-03-03}, group='VM-41', marks=[5, 5, 5, 4, 4]}
+Student{Human{name='Katya', surName='Pupkina', birthday=1999-02-02}, group='IS-41', marks=[5, 5, 5, 5, 5, 5, 4]}
+Student{Human{name='Masha', surName='Petrova', birthday=1998-04-04}, group='IS-41', marks=[5, 5, 5, 5, 5, 5]}
+Human{name='Anton', surName='Antonov', birthday=1989-10-09}
+Human{name='Petya', surName='Petrov', birthday=1970-05-12}
+Human{name='Roma', surName='Romanov', birthday=1965-05-23}
+
+Students list sorted by average mark:
+Student{Human{name='Vasya', surName='Vasilkov', birthday=1998-12-07}, group='VM-41', marks=[2, 3, 4, 5, 2, 2]}
+Student{Human{name='Sveta', surName='Ivanova', birthday=1999-03-03}, group='VM-41', marks=[5, 5, 5, 4, 4]}
+Student{Human{name='Katya', surName='Pupkina', birthday=1999-02-02}, group='IS-41', marks=[5, 5, 5, 5, 5, 5, 4]}
+Student{Human{name='Masha', surName='Petrova', birthday=1998-04-04}, group='IS-41', marks=[5, 5, 5, 5, 5, 5]}
+
+Vasya younger then Sveta
+Vasya stupider then Sveta

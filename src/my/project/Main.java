@@ -23,17 +23,37 @@ public class Main {
 
         // StringBuilder для вывода информации
         StringBuilder sb = new StringBuilder();
+
         // Показываем содержимое списка людей
-        sb.append("Humans:").append('\n');
+        sb.append("Humans list:").append('\n');
         humanList.forEach(human -> sb.append(human).append('\n'));
+
+        sb.append('\n');
+
         // Показываем содержимое списка студентов
-        sb.append("Students:").append('\n');
+        sb.append("Students list:").append('\n');
+        studentList.forEach(student -> sb.append(student).append('\n'));
+
+        sb.append('\n');
+
+        // Сортируем список людей и показываем его
+        Utils.insertSortHumans(humanList);
+        sb.append("Humans list sorted by age:").append('\n');
+        humanList.forEach(human -> sb.append(human).append('\n'));
+
+        sb.append('\n');
+
+        // Сортируем список студентов и показываем его
+        Utils.insertSortStudents(studentList);
+        sb.append("Students list sorted by average mark:").append('\n');
         studentList.forEach(student -> sb.append(student).append('\n'));
 
         // Получаем компаратор для сравнения людей
         Comparator<Human> humanComparator = Utils.getHumanComparator();
         // Получаем компаратор для сравнения студентов
         Comparator<Student> studentComparator = Utils.getStudentComparator();
+
+        sb.append('\n');
 
         // Сравниваем двух людей
         sb.append(humanList.get(0).getName()).append(" ");
